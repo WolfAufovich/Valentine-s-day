@@ -65,6 +65,9 @@ Button_Yes.onclick = function(){
     });
 
     run_good_end_sound.play();
+    var fon_music = new Audio('Audio/Lost_Frequencies_-_Reality_53298748.mp3');
+    fon_music.volume = 0.3;
+    fon_music.play();
     Cat.src = "Image/cat-hyppy.gif";
     /*Cat.style.width = `${180}px`;*/
     Block_Button.style.display = 'none';
@@ -193,4 +196,5 @@ Button_No.addEventListener("mouseleave", end_run_bad_sound);
             btn.style.top = `${newY}px`;
             });
   });
+
 
