@@ -89,7 +89,7 @@ body{
     position: absolute;
     z-index: 9999;
     color: white;
-    text-shadow: #fac6ce 0px 0 10px, #fac6ce 0px 0 20px, #fac6ce 0px 0 30px, #fac6ce 0px 0 10px, #fac6ce 0px 0 20px;
+    text-shadow: #ff90a0 0px 0 10px, #ff90a0 0px 0 20px, #ff90a0 0px 0 30px, #ff90a0 0px 0 10px, #ff90a0 0px 0 20px;
     font-size: 40px;
     opacity: 0;
 }
@@ -453,4 +453,5 @@ button{
      box-shadow: inset 0px 6px 2px rgb(110, 110, 110);
      top:6px;
 } 
+
 
